@@ -1,5 +1,6 @@
 source "https://rubygems.org"
 gem 'jekyll', '~> 3.10'
+gem 'jekyll-paginate', '~> 1.1'
 gem 'jekyll-seo-tag', '~> 2.8'
 gem 'jekyll-sitemap', '~> 1.4'
 gem 'base64'              # required for Ruby 3.4+
