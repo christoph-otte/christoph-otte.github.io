@@ -20,6 +20,7 @@ highlighter: none
 
 exclude:
   - .jekyll-cache
+  - vendor
   
 compress_html:
   clippings: all
