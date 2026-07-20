@@ -26,3 +26,4 @@ class LIFNeuron:
         self.V_reset = V_reset
         self.R_m = R_m
 ````
+

@@ -152,6 +152,31 @@ strong, b {
 	margin-bottom: 0.5rem;
 }
 
+.intro {
+	display: flex;
+	flex-direction: column;
+	gap: .15rem;
+	margin-bottom: 2rem;
+
+	strong {
+		font-size: 1.1rem;
+	}
+
+	span {
+		color: #666;
+		font-size: .95rem;
+	}
+}
+
+.year {
+	font-size: .75rem;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: .08em;
+	color: #999;
+	margin: 1.5rem 0 .5rem;
+}
+
 .posts ul,header ul {
 	list-style:none;
 }
