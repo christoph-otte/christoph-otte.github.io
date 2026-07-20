@@ -25,5 +25,4 @@ class LIFNeuron:
         self.V_th = V_th
         self.V_reset = V_reset
         self.R_m = R_m
-        self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 ````
