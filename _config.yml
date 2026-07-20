@@ -1,5 +1,4 @@
-site: Christoph
-url: #yoururl
+url: https://bernerbruno.github.io
 title: Christoph's homepage
 description: My first steps towards publishing my own website on Github Pages!
 twitter:
@@ -8,15 +7,19 @@ twitter:
   creator: bernerbruno
 author:
   twitter: bernerbruno
-  name: bernerbruno
+  name: Christoph
   avatar:
-  email: #youremail
-  url: #yoururl
+  email: christoph.otte@icloud.com
+  url: https://phoebe.pubpub.org
 permalink: pretty
 
 baseurl: ""
 
 highlighter: none
+
+markdown: kramdown
+kramdown:
+  input: GFM
 
 exclude:
   - .jekyll-cache
@@ -30,9 +33,8 @@ sass:
   style:            :compressed
 
 plugins:
-  - jekyll-paginate
   - jekyll-seo-tag
-  - jekyll-sitemap  
+  - jekyll-sitemap
 
 collections:
   pages:

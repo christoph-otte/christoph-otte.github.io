@@ -1,8 +1,10 @@
 source "https://rubygems.org"
-gem 'jekyll'
-gem 'jekyll-paginate'
-gem 'jekyll-seo-tag'
-gem 'jekyll-sitemap'
+gem 'jekyll', '~> 3.10'
+gem 'jekyll-seo-tag', '~> 2.8'
+gem 'jekyll-sitemap', '~> 1.4'
+gem 'base64'              # required for Ruby 3.4+
+gem 'bigdecimal'          # required for Ruby 3.4+
+gem 'kramdown-parser-gfm' # required for kramdown GFM input
 
 ###source "https://rubygems.org"
 # Hello! This is where you manage which Jekyll version is used to run.
