@@ -6,6 +6,7 @@ gem 'jekyll-sitemap', '~> 1.4'
 gem 'base64'              # required for Ruby 3.4+
 gem 'bigdecimal'          # required for Ruby 3.4+
 gem 'kramdown-parser-gfm' # required for kramdown GFM input
+gem 'kramdown-math-katex'  # server-side math rendering
 
 ###source "https://rubygems.org"
 # Hello! This is where you manage which Jekyll version is used to run.

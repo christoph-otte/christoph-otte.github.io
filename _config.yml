@@ -1,6 +1,6 @@
 site: Christoph
 url: https://bernerbruno.github.io
-title: Christoph's homepage
+title: Bernerbruno
 description: I write about Physics and Neuroscience.
 twitter:
   username: bernerbruno
@@ -22,6 +22,7 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+  math_engine: katex
 
 exclude:
   - .jekyll-cache
