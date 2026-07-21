@@ -4,4 +4,4 @@ title: Musikalisches Opfer
 tags: [cembalo]
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Das Musikalische Opfer (BWV 1079) ist eine Sammlung von überwiegend kontrapunktischen Sätzen, die Johann Sebastian Bach drei Jahre vor seinem Tod schrieb. Alle Sätze beruhen auf einem einzigen Thema des preußischen Königs Friedrich II.
