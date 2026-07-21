@@ -20,7 +20,7 @@ highlighter: rouge
 
 markdown: kramdown
 kramdown:
-  input: GFM
+  input: kramdown
   syntax_highlighter: rouge
   math_engine: katex
 
