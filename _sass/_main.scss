@@ -266,6 +266,55 @@ figcaption {
     font-size: smaller;
 }
 
+// Profile (About page)
+.profile {
+	display: flex;
+	flex-direction: column;
+	gap: .35rem;
+
+	&-avatar {
+		width: 10rem;
+		height: 10rem;
+		border-radius: 50%;
+		object-fit: cover;
+		margin-bottom: .4rem;
+	}
+
+	&-name {
+		font-size: 1.25rem;
+		font-weight: 600;
+		margin: 0;
+		line-height: 1.2;
+	}
+
+	&-bio {
+		color: #000;
+		margin: 0;
+	}
+
+	&-meta {
+		list-style: none;
+		padding: 0;
+		margin: .4rem 0 0;
+		font-size: .9rem;
+		color: #666;
+
+		li {
+			margin-bottom: .25rem;
+			display: flex;
+			align-items: center;
+			gap: .4rem;
+		}
+		svg {
+			width: 1em;
+			height: 1em;
+			flex-shrink: 0;
+			opacity: .6;
+		}
+		a { color: inherit; }
+	}
+}
+
 @media print
 {
     .no-print, .no-print *

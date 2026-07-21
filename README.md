@@ -35,5 +35,6 @@ Every Markdown file starts with the following header:
 layout: post
 title: This is a New Post
 tags: [tagname]
+math: true   # optional, enables KaTeX
 ---
 ```
