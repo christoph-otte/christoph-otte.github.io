@@ -7,6 +7,9 @@ layout: default
   {{ content }}
   <span class="meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time> &middot; {% for tag in page.tags %}
     <a href="/tag/{{tag}}">{{tag}}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</span>
+
+  <nav class="post-nav">
+    {% if page.next %}<a class="post-nav-prev" href="{{ page.next.url }}">&larr; {{ page.next.title }}</a>{% endif %}
+    {% if page.previous %}<a class="post-nav-next" href="{{ page.previous.url }}">{{ page.previous.title }} &rarr;</a>{% endif %}
+  </nav>
 </section>
-
-

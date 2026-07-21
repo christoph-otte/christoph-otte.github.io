@@ -242,12 +242,12 @@ nav ul {
 }
 
 .photos ul {
-	margin-top: 0.5rem;
+	margin-top: 0rem;
 }
 
 main {
 	padding: 0.5rem;
-	margin-top: 0.5rem;
+	margin-top: 0rem;
 }
 
 header, section {
@@ -269,8 +269,23 @@ figcaption {
     font-size: smaller;
 }
 
-.footnotes {
-    font-size: .8rem;
+.tag-count {
+	color: #aaa;
+	font-size: .85rem;
+	font-variant-numeric: tabular-nums;
+}
+
+.nav-icon a {
+	display: inline-flex;
+	align-items: center;
+	text-decoration: none;
+	opacity: .45;
+
+	&:hover { opacity: .8; }
+	svg { display: block; }
+}
+
+.footnotes {    font-size: .8rem;
     color: #888;
     margin-top: 2rem;
     border-top: 1px solid #edf2f7;
@@ -278,6 +293,20 @@ figcaption {
 
     ol { padding-left: 1.2rem; }
     li { margin-bottom: .25rem; }
+}
+
+.post-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid #edf2f7;
+    font-size: .9rem;
+    gap: 1rem;
+
+    a { text-decoration: none; color: #666; }
+    a:hover { color: #000; }
+    .post-nav-next { margin-left: auto; text-align: right; }
 }
 
 // Profile (About page)

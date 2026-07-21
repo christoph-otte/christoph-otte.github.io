@@ -4,12 +4,11 @@ title: Tags
 ---
 
 <section class="posts">
-	<h1>{{ page.title }}</h1>
+<h2>{{ page.title }}</h2>
 {% assign tags = site.tags | sort %}
 <ul>
 {% for tag in tags %}
- <li><a href="/tag/{{ tag | first | slugify }}/">{{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }}){% unless forloop.last %}, {% endunless %}</a></li>
+<li><a href="/tag/{{ tag | first | slugify }}/">{{ tag[0] }}</a> <span class="tag-count">{{ tag | last | size }}</span></li>
 {% endfor %}
 </ul>
-
 </section>

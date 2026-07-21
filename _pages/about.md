@@ -20,3 +20,22 @@ hide_title: true
 </div>
 
 <!-- Ideen und Konzepte in eigenen Worten aufzuschreiben ist der erste Schritt sie zu durchdringen. Schreiben wird für mich damit zur Bedingung für Verstehen. -->
+
+<!-- <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+  <circle cx="3.5" cy="12.5" r="1" fill="currentColor" stroke="none"/>
+  <path d="M3.5 8.5a4 4 0 0 1 4 4"/><path d="M3.5 4.5a8 8 0 0 1 8 8"/>
+</svg>
+
+<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5">
+  <rect x="1.5" y="1.5" width="13" height="13" rx="2"/>
+  <circle cx="5" cy="11" r="1" fill="currentColor" stroke="none"/>
+  <path d="M5 7.5a3.5 3.5 0 0 1 3.5 3.5M5 4.5A6.5 6.5 0 0 1 11.5 11"/>
+</svg>
+
+<svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+  <path d="M1 9a4 4 0 0 1 4-4"/><path d="M1 5.5A7.5 7.5 0 0 1 8.5 13"/>
+</svg>
+
+<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+  <path d="M1 8c1.5-1.5 4-1.5 5.5 0s4 1.5 5.5 0"/><path d="M3.5 5C5.5 3 8 3 10 5M6 2.5c1 0 2 .5 2.5 1"/>
+</svg> -->
