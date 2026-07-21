@@ -3,7 +3,7 @@
       <nav role="navigation" aria-label="Main navigation">
 <ul>
    {% for item in site.data.navigation.links %}
-      <li><a href="{{ item.url }}" data-text="{{ item.title }}" {% if item.url == page.url %} class="active"{% endif %}>{{ item.title }}</a></li>
+      <li><a href="{{ item.url }}" data-text="{{ item.title }}" {% if item.url == page.url or item.url == '/' and page.collection == 'posts' %} class="active"{% endif %}>{{ item.title }}</a></li>
    {% endfor %}
 </ul>
 </nav>
