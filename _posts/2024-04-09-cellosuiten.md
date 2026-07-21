@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Cellosuiten
-tags: []
+tags: [cello]
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
