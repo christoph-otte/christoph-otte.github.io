@@ -1,1 +1,39 @@
 # bernerbruno.github.io
+
+This repository is used for deployment of my personal website [bernerbruno.github.io](https://bernerbruno.github.io)
+
+The website is built with [Jekyll](https://jekyllrb.com/), hosted on [GitHub Pages](https://pages.github.com/).
+
+## Local Development
+
+Create a local test server:
+
+```bash
+$ bundle exec jekyll serve
+```
+
+Visit
+
+```bash
+http://localhost:4000
+```
+
+Changes will be recognised automatically. The page will be built immediately.
+
+## Add New Posts
+
+Create a new markdown file and name it according the following convention:
+
+```
+YYYY-MM-DD-title-of-the-post.md
+```
+
+Every Markdown file starts with the following header:
+
+```markdown
+---
+layout: post
+title: This is a New Post
+tags: [tagname]
+---
+```
