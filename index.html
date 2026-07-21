@@ -4,10 +4,8 @@ title: Writing
 ---
 
 <section class="posts">
-  <div class="posts-header">
-    <h2>{{ page.title }}</h2>
-    <input type="text" id="search-input" placeholder="Search…" autocomplete="off">
-  </div>
+  <h2>{{ page.title }}</h2>
+  <input type="text" id="search-input" placeholder="Search…" autocomplete="off">
 
   <div id="posts-list">
   {% assign postsByYear = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
@@ -15,7 +13,7 @@ title: Writing
   <h3 class="year" data-year>{{ year.name }}</h3>
   <ul data-year-list>
     {% for post in year.items %}
-    <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d" }}</time></li>
+    <li data-tags="{{ post.tags | join: ' ' }}"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d" }}</time></li>
     {% endfor %}
   </ul>
   {% endfor %}
@@ -23,20 +21,24 @@ title: Writing
 </section>
 
 <script>
-var input = document.getElementById('search-input');
-input.addEventListener('input', function() {
-  var q = this.value.trim().toLowerCase();
-  document.querySelectorAll('[data-year]').forEach(function(yearEl) {
-    var ul = yearEl.nextElementSibling;
-    var anyVisible = false;
-    ul.querySelectorAll('li').forEach(function(li) {
-      var match = !q || li.querySelector('a').textContent.toLowerCase().includes(q);
-      li.style.display = match ? '' : 'none';
-      if (match) anyVisible = true;
+(function() {
+  var input = document.getElementById('search-input');
+  input.addEventListener('input', function() {
+    var q = this.value.trim().toLowerCase();
+    document.querySelectorAll('[data-year]').forEach(function(yearEl) {
+      var ul = yearEl.nextElementSibling;
+      var anyVisible = false;
+      ul.querySelectorAll('li').forEach(function(li) {
+        var match = !q ||
+          li.querySelector('a').textContent.toLowerCase().includes(q) ||
+          (li.dataset.tags && li.dataset.tags.toLowerCase().includes(q));
+        li.style.display = match ? '' : 'none';
+        if (match) anyVisible = true;
+      });
+      yearEl.style.display = anyVisible ? '' : 'none';
+      ul.style.display     = anyVisible ? '' : 'none';
     });
-    yearEl.style.display = anyVisible ? '' : 'none';
-    ul.style.display    = anyVisible ? '' : 'none';
   });
-});
+}());
 </script>
 
