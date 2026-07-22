@@ -13,3 +13,19 @@ layout: default
     {% if page.previous %}<a class="post-nav-next" href="{{ page.previous.url }}">{{ page.previous.title }} &rarr;</a>{% endif %}
   </nav>
 </section>
+
+{% if page.math %}
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+<script>
+renderMathInElement(document.body, {
+  delimiters: [
+    {left: '\\[', right: '\\]', display: true},
+    {left: '\\(', right: '\\)', display: false},
+    {left: '$$', right: '$$', display: true},
+    {left: '$', right: '$', display: false}
+  ],
+  throwOnError: false
+});
+</script>
+{% endif %}

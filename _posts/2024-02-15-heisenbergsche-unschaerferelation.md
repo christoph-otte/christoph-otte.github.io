@@ -9,4 +9,4 @@ Die Heisenbergsche Unschärferelation, formuliert von Werner Heisenberg im Jahr 
 
 Diese Unbestimmtheit ist keine Frage mangelnder Messpräzision oder unzureichender Instrumente. Sie ist der Natur der Quantenobjekte selbst inhärent. Ein Elektron besitzt vor einer Messung schlicht keinen scharf definierten Ort und keinen scharf definierten Impuls gleichzeitig – nicht weil wir es nicht wissen, sondern weil diese Größen im quantenmechanischen Sinne nicht gleichzeitig existieren.
 
-Mathematisch lässt sich die Relation schreiben als $$\Delta x \cdot \Delta p \geq \hbar/2$$, wobei $$\hbar$$ das reduzierte Plancksche Wirkungsquantum ist. Die Unschärferelation gilt analog für Energie und Zeit: Ein Quantenzustand, der nur kurz existiert, kann energetisch nicht scharf definiert sein.
+Mathematisch lässt sich die Relation schreiben als $\Delta x \cdot \Delta p \geq \hbar/2$, wobei $\hbar$ das reduzierte Plancksche Wirkungsquantum ist. Die Unschärferelation gilt analog für Energie und Zeit: Ein Quantenzustand, der nur kurz existiert, kann energetisch nicht scharf definiert sein.
