@@ -178,8 +178,15 @@ nav #search-input { display: none; }
 	&:focus { border-bottom-color: #999; }
 }
 
-#posts-list {
+#posts-list, #tags-list {
 	margin-top: 1.5rem;
+}
+
+.tag-count {
+	color: #bbb;
+	font-size: .85rem;
+	font-variant-numeric: tabular-nums;
+	padding-left: .4rem;
 }
 
 .year {

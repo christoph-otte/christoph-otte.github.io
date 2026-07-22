@@ -5,10 +5,50 @@ title: Tags
 
 <section class="posts">
 <h2>{{ page.title }}</h2>
+<input type="text" id="search-input" placeholder="Search…" autocomplete="off">
 {% assign tags = site.tags | sort %}
-<ul>
+<ul id="tags-list">
 {% for tag in tags %}
 <li><a href="/tag/{{ tag | first | slugify }}/">{{ tag[0] }}</a> <span class="tag-count">{{ tag | last | size }}</span></li>
 {% endfor %}
 </ul>
 </section>
+
+<script>
+(function() {
+  var input = document.getElementById('search-input');
+  var items = Array.from(document.querySelectorAll('#tags-list li'));
+  var posts = null;
+
+  fetch('/search.json')
+    .then(function(r) { return r.json(); })
+    .then(function(data) { posts = data; });
+
+  input.addEventListener('input', function() {
+    var q = this.value.trim().toLowerCase();
+
+    if (!q) {
+      items.forEach(function(li) { li.style.display = ''; });
+      return;
+    }
+
+    if (!posts) return;
+
+    var matchingTags = new Set();
+    posts.forEach(function(p) {
+      if (
+        p.title.toLowerCase().includes(q) ||
+        p.tags.toLowerCase().includes(q) ||
+        p.content.toLowerCase().includes(q)
+      ) {
+        p.tags.split(' ').forEach(function(t) { matchingTags.add(t.toLowerCase()); });
+      }
+    });
+
+    items.forEach(function(li) {
+      var tag = li.querySelector('a').textContent.trim().toLowerCase();
+      li.style.display = matchingTags.has(tag) ? '' : 'none';
+    });
+  });
+}());
+</script>
