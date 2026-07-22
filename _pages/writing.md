@@ -1,0 +1,57 @@
+---
+layout: default
+title: Writing
+permalink: /writing
+---
+
+<section class="posts">
+  <h2>{{ page.title }}</h2>
+  <input type="text" id="search-input" placeholder="Search…" autocomplete="off">
+
+  <div id="posts-list">
+  {% assign postsByYear = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+  {% for year in postsByYear %}
+  <h3 class="year" data-year>{{ year.name }}</h3>
+  <ul data-year-list>
+    {% for post in year.items %}
+    <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d" }}</time></li>
+    {% endfor %}
+  </ul>
+  {% endfor %}
+  </div>
+</section>
+
+<script>
+(function() {
+  var input = document.getElementById('search-input');
+  var posts = null;
+
+  fetch('/search.json')
+    .then(function(r) { return r.json(); })
+    .then(function(data) { posts = data; });
+
+  function filterList(q) {
+    document.querySelectorAll('[data-year]').forEach(function(yearEl) {
+      var ul = yearEl.nextElementSibling;
+      var anyVisible = false;
+      ul.querySelectorAll('li').forEach(function(li) {
+        var href = li.querySelector('a').getAttribute('href');
+        var match = !q || (posts && posts.some(function(p) {
+          return p.url === href &&
+            (p.title.toLowerCase().includes(q) ||
+             p.tags.toLowerCase().includes(q) ||
+             p.content.toLowerCase().includes(q));
+        }));
+        li.style.display = match ? '' : 'none';
+        if (match) anyVisible = true;
+      });
+      yearEl.style.display = anyVisible ? '' : 'none';
+      ul.style.display     = anyVisible ? '' : 'none';
+    });
+  }
+
+  input.addEventListener('input', function() {
+    filterList(this.value.trim().toLowerCase());
+  });
+}());
+</script>
