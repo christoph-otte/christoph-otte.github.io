@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Goldberg-Variationen
-tags: [cembalo]
+tags: [bach, musik, cembalo]
 ---
 
 Die Goldberg-Variationen sind ein Werk Johann Sebastian Bachs (BWV 988) für Cembalo. Im von Bach selbst veranlassten Erstdruck aus dem Jahr 1741 wurde es als _Clavier Ubung bestehend in einer ARIA mit verschiedenen Verænderungen vors Clavicimbal mit 2 Manualen_ bezeichnet.[^1] Die Benennung nach Johann Gottlieb Goldberg entstand posthum aufgrund einer Anekdote.[^2]

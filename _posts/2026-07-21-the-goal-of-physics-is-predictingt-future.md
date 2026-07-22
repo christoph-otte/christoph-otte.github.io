@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Goal of Physics is Predicting Future!
-tags: [science]
+tags: [physik, naturwissenschaft]
 math: true
 ---
 
