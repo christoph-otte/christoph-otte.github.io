@@ -16,11 +16,13 @@ permalink: pretty
 
 baseurl: ""
 
+future: true
+
 highlighter: rouge
 
 markdown: kramdown
 kramdown:
-  input: kramdown
+  input: GFM
   syntax_highlighter: rouge
 
 exclude:
