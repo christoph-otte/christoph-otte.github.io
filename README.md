@@ -6,10 +6,29 @@ The website is built with [Jekyll](https://jekyllrb.com/), hosted on [GitHub Pag
 
 ## Local Development
 
-Create a local test server:
+### Prerequisites
+
+Install Ruby and Bundler:
 
 ```bash
-$ bundle exec jekyll serve
+sudo apt install ruby ruby-bundler ruby-dev build-essential
+```
+
+### Setup
+
+Install all required gems locally into the project (only needed once, or after changes to `Gemfile`):
+
+```bash
+bundle config set --local path 'vendor/bundle'
+bundle install
+```
+
+### Run
+
+Start a local test server:
+
+```bash
+bundle exec jekyll serve
 ```
 
 Visit

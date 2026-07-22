@@ -22,7 +22,6 @@ markdown: kramdown
 kramdown:
   input: kramdown
   syntax_highlighter: rouge
-  math_engine: katex
 
 exclude:
   - .jekyll-cache
