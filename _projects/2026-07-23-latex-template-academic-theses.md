@@ -2,10 +2,11 @@
 title: "LaTeX Template for Academic Theses"
 date: 2026-07-23
 tags: [latex, thesis, template]
-published: true
+published: false
 ---
 
-I've written a LaTeX template for a typical academic thesis and published it on GitHub:
+I wrote a LaTeX template for a typical academic thesis and published it on GitHub:
+
 [https://github.com/bernerbruno/latex-template-thesis](https://github.com/bernerbruno/latex-template-thesis)
 
 ```latex
