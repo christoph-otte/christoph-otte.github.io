@@ -222,8 +222,24 @@ nav #search-input { display: none; }
 	font-variant-numeric: tabular-nums;
 }
 
-.post ul, .project ul, .post ol  {
-	//list-style-position: inside;
+.post ul, .project ul {
+	list-style: none;
+	padding-left: 0;
+
+	li {
+		padding-left: 1.2em;
+		position: relative;
+
+		&::before {
+			content: "–";
+			position: absolute;
+			left: 0;
+		}
+	}
+}
+
+.post ol, .project ol {
+	padding-left: 1.2rem;
 }
 
 #pagination {

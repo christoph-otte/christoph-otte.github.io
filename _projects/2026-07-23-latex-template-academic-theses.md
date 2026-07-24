@@ -9,7 +9,13 @@ I wrote a LaTeX template for a typical academic thesis and published it on GitHu
 
 [https://github.com/bernerbruno/latex-template-thesis](https://github.com/bernerbruno/latex-template-thesis)
 
-The template is based on the `scrreprt` class. Packages, styling, and custom commands are defined in separate `preamble.tex` file. Importing the content is splitted among three different files, i.e. `frontmatter`, `mainmatter`, and `backmatter`. The first part `frontmatter` contains the title page, the abstract (in two languages), the table of contents, the list of figures and the list of tables. In `mainmatter`, the authors put the real content of their work, i.e. the chapters and the bibliography. The appendix and the declaration of authorship is located in the last part `backmatter`.
+<!-- The template is based on the `scrreprt` class. Packages, styling, and custom commands are defined in separate `preamble.tex` file. Importing the content is splitted among three different files, i.e. `frontmatter`, `mainmatter`, and `backmatter`. The first part `frontmatter` contains the title page, the abstract (in two languages), the table of contents, the list of figures and the list of tables. In `mainmatter`, the authors put the real content of their work, i.e. the chapters and the bibliography. The appendix and the declaration of authorship is located in the last part `backmatter`. -->
+
+The template is built upon the KOMA-Script class `scrreprt`. Global packages, styling rules, and custom commands are encapsulated within a separate `preamble.tex` file. The document content is logically split across three main files:
+
+- The `frontmatter` includes preliminary pages such as the title page, bilingual abstracts, table of contents, and lists of figures and tables.
+- The `mainmatter` contains the primary body of the work, comprising the main chapters and the bibliography.
+- The `backmatter` concludes the document with the appendix and the declaration of authorship.
 
 ```latex
 % main.tex
