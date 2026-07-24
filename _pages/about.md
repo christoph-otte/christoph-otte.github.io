@@ -9,7 +9,7 @@ hide_title: true
   <!-- <h2 class="profile-name">Christoph</h2> -->
   
   <p class="profile-bio">
-  <h3>Hi, I'm Christoph</h3>
+  <h3>Hi, I'm Bruno</h3>
   Putting ideas and concepts into my own words is the first step toward truly grasping them. For me, writing thus becomes a prerequisite for understanding.
   </p>
   <ul class="profile-meta">

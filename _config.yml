@@ -1,7 +1,7 @@
 site: Christoph
 url: https://bernerbruno.github.io
 title: Bernerbruno
-description: I write about Physics and Neuroscience.
+description: This site collects notes.
 twitter:
   username: bernerbruno
   card: summary
@@ -49,6 +49,9 @@ collections:
   posts:
     output: true
     permalink: /:year/:month/:day/:slug
+  projects:
+    output: true
+    permalink: /projects/:slug
   
 defaults:
   -
@@ -66,5 +69,11 @@ defaults:
     scope:
       path: ""
       type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: ""
+      type: "projects"
     values:
       layout: "post"
