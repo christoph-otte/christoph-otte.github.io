@@ -2,6 +2,7 @@
 layout: post
 title: Klassen und objektorientierte Programmierung in Python
 tags: [python, programmierung]
+published: false
 ---
 
 Objektorientierte Programmierung (OOP) strukturiert Code um Objekte herum: Datenstrukturen, die sowohl Zustand (Attribute) als auch Verhalten (Methoden) vereinen. Python unterstützt dieses Paradigma vollständig, ohne es zu erzwingen – man kann es einsetzen, wo es Sinn ergibt.

@@ -2,6 +2,7 @@
 layout: post
 title: Die Französische Revolution
 tags: [geschichte, geisteswissenschaft]
+published: false
 ---
 
 Die Französische Revolution, die 1789 mit dem Sturm auf die Bastille ihren symbolischen Auftakt fand, zählt zu den einschneidendsten Zäsuren der neuzeitlichen Geschichte. Sie beendete das Ancien Régime, beseitigte die Feudalordnung und setzte mit den Erklärungen der Menschen- und Bürgerrechte einen normativen Maßstab, der bis heute nachwirkt. Freiheit, Gleichheit, Brüderlichkeit – die Trias wurde zur Losung einer politischen Epoche.

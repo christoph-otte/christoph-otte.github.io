@@ -2,6 +2,7 @@
 layout: post
 title: Das Immunsystem
 tags: [medizin, naturwissenschaft]
+published: false
 ---
 
 Das Immunsystem ist kein einzelnes Organ, sondern ein verteiltes Netzwerk aus Zellen, Proteinen und Geweben, das den Organismus vor Krankheitserregern schützt. Man unterscheidet das angeborene und das adaptive Immunsystem. Das angeborene System reagiert schnell und unspezifisch: Makrophagen, natürliche Killerzellen und das Komplementsystem erkennen allgemeine Muster auf Pathogenen und leiten sofortige Abwehrmaßnahmen ein.

@@ -46,7 +46,9 @@ pre {
 }
 
 .meta {
-	margin: 2rem 0;
+	margin: 2rem 0 1rem;
+	padding-top: 1rem;
+	border-top: 1px solid #edf2f7;
 }
 
 code,pre {
@@ -325,9 +327,8 @@ figcaption {
 .post-nav {
     display: flex;
     justify-content: space-between;
-    margin-top: 2rem;
-    padding-top: 1rem;
-    border-top: 1px solid #edf2f7;
+    margin-top: 1rem;
+    padding-top: 0;
     font-size: .9rem;
     gap: 1rem;
 

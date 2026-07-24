@@ -7,13 +7,15 @@ layout: default
 <input type="text" id="search-input" placeholder="Search…" autocomplete="off">
 
 {% assign taggedPosts = site.posts | where_exp: "post", "post.tags contains page.tag" %}
-{% assign postsByYear = taggedPosts | group_by_exp: "post", "post.date | date: '%Y'" %}
+{% assign taggedProjects = site.projects | where_exp: "project", "project.tags contains page.tag" %}
+{% assign taggedAll = taggedPosts | concat: taggedProjects %}
+{% assign postsByYear = taggedAll | group_by_exp: "doc", "doc.date | date: '%Y'" %}
 <div id="posts-list">
 {% for year in postsByYear %}
 <h3 class="year" data-year>{{ year.name }}</h3>
 <ul data-year-list>
-  {% for post in year.items %}
-  <li><a href="{{ post.url }}">{{ post.title }}</a><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d" }}</time></li>
+  {% for doc in year.items %}
+  <li><a href="{{ doc.url }}">{{ doc.title }}</a><time datetime="{{ doc.date | date_to_xmlschema }}">{{ doc.date | date: "%b %-d" }}</time></li>
   {% endfor %}
 </ul>
 {% endfor %}

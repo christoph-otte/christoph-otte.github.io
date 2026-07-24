@@ -2,6 +2,7 @@
 layout: post
 title: Dekoratoren in Python
 tags: [python, programmierung]
+published: false
 ---
 
 Ein Dekorator ist eine Funktion, die eine andere Funktion entgegennimmt, ihr Verhalten erweitert und eine neue Funktion zurückgibt. Das Konzept beruht darauf, dass Funktionen in Python erstklassige Objekte sind: Sie können anderen Funktionen als Argument übergeben, in Variablen gespeichert oder von Funktionen zurückgegeben werden.

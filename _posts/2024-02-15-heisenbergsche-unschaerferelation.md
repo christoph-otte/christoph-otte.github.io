@@ -3,6 +3,7 @@ layout: post
 title: Heisenbergsche Unschärferelation
 tags: [physik, naturwissenschaft]
 math: true
+published: false
 ---
 
 Die Heisenbergsche Unschärferelation, formuliert von Werner Heisenberg im Jahr 1927, ist eines der fundamentalsten Prinzipien der Quantenmechanik. Sie besagt, dass bestimmte Paare physikalischer Größen – etwa Ort und Impuls eines Teilchens – nicht gleichzeitig mit beliebiger Genauigkeit bestimmt werden können. Je präziser der Ort eines Quantenobjekts bekannt ist, desto unbestimmter ist sein Impuls, und umgekehrt.

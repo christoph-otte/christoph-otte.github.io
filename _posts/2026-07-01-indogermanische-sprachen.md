@@ -2,6 +2,7 @@
 layout: post
 title: Indogermanische Sprachen
 tags: [sprachen, geisteswissenschaft]
+published: false
 ---
 
 Die indogermanische (oder indoeuropäische) Sprachfamilie umfasst mit über drei Milliarden Sprechern die größte Sprachgruppe der Welt. Zu ihr gehören so unterschiedliche Sprachen wie Sanskrit, Griechisch, Latein, die germanischen, slawischen und romanischen Sprachen sowie Persisch und Hindi. Was sie verbindet, ist eine gemeinsame Vorläufersprache: das hypothetische Protoindogermanische, das vor etwa 6.000 Jahren in der eurasischen Steppe gesprochen wurde.

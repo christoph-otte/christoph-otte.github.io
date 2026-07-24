@@ -3,6 +3,7 @@ layout: post
 title: Eulersche Identität
 tags: [mathematik, naturwissenschaft]
 math: true
+published: false
 ---
 
 Die Eulersche Identität $e^{i\pi} + 1 = 0$ gilt vielen Mathematikern als die schönste Gleichung der Mathematik. In einer einzigen kompakten Aussage vereint sie fünf der bedeutendsten Konstanten: die Eulersche Zahl $e$, die imaginäre Einheit $i$, die Kreiszahl $\pi$, die Eins und die Null. Sie ist ein Spezialfall der allgemeineren Eulerschen Formel

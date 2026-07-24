@@ -2,6 +2,7 @@
 layout: post
 title: Kognitive Dissonanz
 tags: [psychologie, geisteswissenschaft]
+published: false
 ---
 
 Der Begriff der kognitiven Dissonanz geht auf Leon Festinger zurück, der ihn 1957 einführte. Gemeint ist der innere Spannungszustand, der entsteht, wenn zwei oder mehr Überzeugungen, Einstellungen oder Verhaltensweisen miteinander unvereinbar sind. Wer raucht und zugleich weiß, dass Rauchen schadet, erlebt diesen Widerspruch als unangenehm – und strebt danach, ihn aufzulösen.

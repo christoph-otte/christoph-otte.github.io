@@ -2,6 +2,7 @@
 layout: post
 title: Python List Comprehensions und Generatoren
 tags: [python, programmierung]
+published: false
 ---
 
 Python bietet eine elegante Syntax, um Sequenzen zu erzeugen und zu transformieren: List Comprehensions und Generatoren. Beide Konzepte erlauben es, kompakten und lesbaren Code zu schreiben, unterscheiden sich aber grundlegend in ihrer Funktionsweise.

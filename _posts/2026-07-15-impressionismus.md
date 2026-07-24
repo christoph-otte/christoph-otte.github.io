@@ -2,6 +2,7 @@
 layout: post
 title: Der Impressionismus
 tags: [kunst, geisteswissenschaft]
+published: false
 ---
 
 Der Impressionismus entstand in den 1860er und 1870er Jahren in Frankreich als Reaktion auf die akademische Malerei, die glatte Oberflächen, historische Sujets und strenge Komposition verlangte. Claude Monet, Auguste Renoir, Camille Pissarro und ihre Mitstreiter interessierten sich stattdessen für das Flüchtige: das Spiel des Lichts auf einer Wasseroberfläche, den Dunst eines Pariser Bahnhofs, den Schatten unter einem Baum zu einer bestimmten Tageszeit.

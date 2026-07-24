@@ -2,6 +2,7 @@
 layout: post
 title: Das Periodensystem
 tags: [chemie, naturwissenschaft]
+published: false
 ---
 
 Das Periodensystem der Elemente, in seiner modernen Form auf Dmitri Mendelejew zurückgehend, ordnet alle bekannten chemischen Elemente nach steigender Ordnungszahl und gruppiert sie anhand ihrer Elektronenkonfiguration. Was zunächst wie eine bloße Klassifikationstabelle wirkt, ist in Wahrheit eine komprimierte Theorie: Die Stellung eines Elements im Periodensystem erlaubt Rückschlüsse auf sein chemisches Verhalten, seine Bindungsneigung, seine typischen Oxidationsstufen.

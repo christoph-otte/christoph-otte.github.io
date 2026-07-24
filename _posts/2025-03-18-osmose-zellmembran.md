@@ -2,6 +2,7 @@
 layout: post
 title: Osmose und die Zellmembran
 tags: [biologie, naturwissenschaft]
+published: false
 ---
 
 Die Zellmembran ist keine passive Hülle, sondern eine dynamisch regulierte Grenzfläche. Ihr Grundgerüst bildet die Lipiddoppelschicht: zwei Lagen amphiphiler Phospholipidmoleküle, deren hydrophobe Schwänze ins Innere zeigen und deren hydrophile Köpfe dem wässrigen Milieu zugewandt sind. Diese Selbstorganisation ist thermodynamisch begünstigt und macht die Membran zugleich flexibel und stabil.
