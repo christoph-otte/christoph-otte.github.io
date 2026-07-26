@@ -1,6 +1,6 @@
-# bernerbruno.github.io
+# christoph-otte.github.io
 
-This repository is used for deployment of my personal website [bernerbruno.github.io](https://bernerbruno.github.io)
+This repository is used for deployment of my personal website [christoph-otte.github.io](https://christoph-otte.github.io)
 
 The website is built with [Jekyll](https://jekyllrb.com/), hosted on [GitHub Pages](https://pages.github.com/).
 
