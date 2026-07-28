@@ -40,4 +40,3 @@ The template is built upon the KOMA-Script class `scrreprt`. Packages, styling, 
 - The `frontmatter` includes preliminary pages such as the title page, bilingual abstracts, table of contents, and lists of figures and tables.
 - The `mainmatter` contains the primary body of the work, comprising the main chapters and the bibliography.
 - The `backmatter` concludes the document with the appendix and the declaration of authorship.
-

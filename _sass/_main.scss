@@ -34,11 +34,11 @@ pre {
 }
 
 .post p {
-	margin: .5rem 0;
+	margin-top: .5rem;
 }
 
 .post h1, .post h2, .post h3, .post h4 {
-	margin: 1rem 0;
+	margin-top: 1.25rem;
 }
 
 .post h2:first-child, .posts h2:first-child, .projects h2:first-child, .project h2:first-child, .photo h2:first-child {
@@ -225,10 +225,12 @@ nav #search-input { display: none; }
 .post ul, .project ul {
 	list-style: none;
 	padding-left: 0;
+	margin-top: 1rem;
 
 	li {
 		padding-left: 1.2em;
 		position: relative;
+		margin-bottom: .8rem;
 
 		&::before {
 			content: "–";
