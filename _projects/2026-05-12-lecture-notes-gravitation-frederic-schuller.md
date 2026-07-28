@@ -1,6 +1,6 @@
 ---
-title: "Lecture Notes on Gravitational Theory"
-date: 2026-05-12
+title: "Lecture Notes on Classical Mechanics"
+date: 2026-08-01
 tags: [gravitation, lecture notes]
 published: false
 ---

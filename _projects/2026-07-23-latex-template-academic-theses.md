@@ -3,6 +3,7 @@ title: "LaTeX Template for Academic Theses"
 date: 2026-07-23
 tags: [latex, thesis, template]
 published: true
+last_modified_at: 2026-07-28
 ---
 
 I wrote a LaTeX template for a typical academic thesis and published it on GitHub:
