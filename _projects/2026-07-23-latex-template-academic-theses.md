@@ -3,7 +3,7 @@ title: "LaTeX Template for Academic Theses"
 date: 2026-07-23
 tags: [latex, thesis, template]
 published: true
-last_modified_at: 2026-07-28
+last_modified_at: 2026-07-30
 ---
 
 I wrote a LaTeX template for a typical academic thesis and published it on GitHub:
@@ -41,3 +41,8 @@ The template is built upon the KOMA-Script class `scrreprt`. Packages, styling, 
 - The `frontmatter` includes preliminary pages such as the title page, bilingual abstracts, table of contents, and lists of figures and tables.
 - The `mainmatter` contains the primary body of the work, comprising the main chapters and the bibliography.
 - The `backmatter` concludes the document with the appendix and the declaration of authorship.
+
+Every folder includes a file with the same name, e.g. `frontmatter.tex` lies in `frontmatter/` and contains the other files like `titlepage.tex`, `abstract.tex`, and `acknowledgement.tex`. The folders `figures/` and `tables`contains image files and LaTeX code for tables, respectively.
+
+Please make sure to compile `main.tex` with `LuaLaTeX` and `biber` for the bibliography. Standard `pdfLaTeX` will not work properly.
+
