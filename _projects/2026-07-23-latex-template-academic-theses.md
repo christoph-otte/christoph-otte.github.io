@@ -42,7 +42,7 @@ The template is built upon the KOMA-Script class `scrreprt`. Packages, styling, 
 - The `mainmatter` contains the primary body of the work, comprising the main chapters and the bibliography.
 - The `backmatter` concludes the document with the appendix and the declaration of authorship.
 
-Every folder includes a file with the same name, e.g. `frontmatter.tex` lies in `frontmatter/` and contains the other files like `titlepage.tex`, `abstract.tex`, and `acknowledgement.tex`. The folders `figures/` and `tables`contains image files and LaTeX code for tables, respectively.
+Every folder includes a file with the same name, e.g. `frontmatter.tex` lies in `frontmatter/` and contains the other files like `titlepage.tex`, `abstract.tex`, and `acknowledgement.tex`. The folders `figures/` and `tables/` contains image files and LaTeX code for tables, respectively.
 
 Please make sure to compile `main.tex` with `LuaLaTeX` and `biber` for the bibliography. Standard `pdfLaTeX` will not work properly.
 
