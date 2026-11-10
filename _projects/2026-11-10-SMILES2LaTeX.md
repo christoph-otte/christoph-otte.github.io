@@ -5,7 +5,7 @@ tags: [latex, chemistry, structural formula]
 published: true
 ---
 
-Drawing chemical structure formulae with LaTeX can become quickly become frustrating. Using `chemfig` might be a good choice when you want to draw simple molecules. But learning it may not be worthwhile if you're writing about complex structures. 
+Drawing chemical structure formulae with LaTeX can quickly become frustrating. Using `chemfig` might be a good choice when you want to draw simple molecules. But learning it may not be worthwhile if you're writing about complex structures. 
 
 The [PubChem](https://pubchem.ncbi.nlm.nih.gov/) database provides access to millions of chemical structures, but it doesn't provide the corresponding LaTeX code.
 
