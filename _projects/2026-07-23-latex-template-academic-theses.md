@@ -84,4 +84,4 @@ $ make         # compile full document
 $ make clean   # removes temporary files
 ```
 
-You can find the source code and instructions on [GitHub](https://github.com/christoph-otte/latex-template-thesis)).
+You can find the source code and instructions on [GitHub](https://github.com/christoph-otte/latex-template-thesis).
