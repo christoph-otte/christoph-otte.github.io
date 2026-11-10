@@ -3,14 +3,10 @@ title: "LaTeX Template for Academic Theses"
 date: 2026-07-23
 tags: [latex, thesis, template]
 published: true
-last_modified_at: 2026-07-31
+last_modified_at: 2026-11-10
 ---
 
-I wrote a LaTeX template for a typical academic thesis and published it on GitHub:
-
-[https://github.com/christoph-otte/latex-template-thesis](https://github.com/christoph-otte/latex-template-thesis)
-
-The template has the following structure:
+I wrote a LaTeX template for a typical academic thesis. The template has the following structure:
 
 ```bash
 .
@@ -87,3 +83,5 @@ If you work on a Linux terminal you can use the Makefile instead:
 $ make         # compile full document
 $ make clean   # removes temporary files
 ```
+
+You can find the source code and instructions on [GitHub](https://github.com/christoph-otte/latex-template-thesis)).
