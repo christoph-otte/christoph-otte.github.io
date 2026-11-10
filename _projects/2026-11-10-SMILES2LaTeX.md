@@ -1,9 +1,8 @@
 ---
 title: "SMILES to LaTeX: Drawing Molecular Structures"
-date: 2026-07-23
+date: 2026-11-10
 tags: [latex, chemistry, structural formula]
 published: true
-last_modified_at: 2026-11-10
 ---
 
 Drawing chemical structure formulae with LaTeX can become quickly become frustrating. Using `chemfig` might be a good choice when you want to draw simple molecules. But learning it may not be worthwhile if you're writing about complex structures. 
