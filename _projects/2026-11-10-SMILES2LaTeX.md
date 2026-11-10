@@ -9,6 +9,6 @@ Drawing chemical structure formulae with LaTeX can become quickly become frustra
 
 The [PubChem](https://pubchem.ncbi.nlm.nih.gov/) database provides access to millions of chemical structures, but it doesn't provide the corresponding LaTeX code.
 
-That's why I wrote a small program that converts SMILES representations into usable chemfig code.
+That's why I wrote a small program that converts [SMILES](https://en.wikipedia.org/wiki/Simplified_Molecular_Input_Line_Entry_System) representations into usable chemfig code.
 
 You can find the source code and instructions on [GitHub](https://github.com/christoph-otte/smiles2latex).
