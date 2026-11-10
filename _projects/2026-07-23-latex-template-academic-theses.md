@@ -84,6 +84,6 @@ Please make sure to compile `main.tex` with `LuaLaTeX` and `biber` for the bibli
 If you work on a Linux terminal you can use the Makefile instead:
 
 ```bash
-make         # compile full document
-make clean   # removes temporary files
+$ make         # compile full document
+$ make clean   # removes temporary files
 ```

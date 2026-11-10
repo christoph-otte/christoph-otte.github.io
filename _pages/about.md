@@ -10,7 +10,9 @@ hide_title: true
   
   <p class="profile-bio">
   <h3>Hi, I'm Christoph</h3>
-  Putting ideas and concepts into my own words is the first step toward truly grasping them. For me, writing thus becomes a prerequisite for understanding.
+  <p>I work for the university library Heidelberg both as a subject librarian for math and chemistry and as a software developer in the IT department. Furthermore, I'm part of the Research Data Unit, which not only supports scientists in data management planning but also participates in projects to build and improve data infrastructures.</p>
+
+  <p>Putting ideas and concepts into my own words is the first step toward truly grasping them. For me, writing thus becomes a prerequisite for understanding.</p>
   </p>
   <ul class="profile-meta">
     <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="6" width="12" height="9" rx="1"/><path d="M5 15v-4h2.5v4M8.5 15v-4H11v4"/><path d="M1 6l7-5 7 5"/><rect x="6.5" y="8" width="3" height="3" rx=".5"/></svg><a href="https://phoebe.pubpub.org">phoebe.pubpub.org</a></li>
